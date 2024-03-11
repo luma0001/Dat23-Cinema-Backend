@@ -35,6 +35,7 @@ public class Category {
   public void  addRecipe(Recipe recipe) {
     this.recipes.add(recipe);
     recipe.setCategory(this);
+    System.out.println("hrj");
   }
   public Category(String name) {
     this.name = name;
